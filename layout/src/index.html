@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Компания Бетон +</title>
+
+  @@include('blocks-html/style.html')
+  <link rel="stylesheet" href="css-min/indexPage.min.css">
+
+</head>
+
+
+<body class="body-index-page">
+  @@include('blocks-html/header.html')
+
+  <main class="index-page">
+    @@include('blocks-html/index-page/banner.html')
+    @@include('blocks-html/index-page/advantages.html')
+
+    @@include('blocks-html/index-page/products.html')
+    @@include('blocks-html/index-page/slider.html')
+
+    @@include('blocks-html/index-page/calculate-cost.html')
+    @@include('blocks-html/index-page/delivery.html')
+
+    @@include('blocks-html/index-page/about-us.html')
+    @@include('blocks-html/index-page/map.html')
+
+  </main>
+
+
+  @@include('blocks-html/footer.html')
+  @@include('blocks-html/modals.html')
+
+
+  @@include('blocks-html/scripts.html')
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script  src="js/indexPage.js" type="text/javascript" charset="utf-8"></script>
+  <script  src="js/ajaxFormIndexPage.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>

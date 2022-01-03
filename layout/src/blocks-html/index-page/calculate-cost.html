@@ -1,0 +1,60 @@
+<section class="calculate-cost" id="calculate-cost">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-5">
+        <div class="calculate-cost__info">
+          <span class="calculate-cost__title">Экономьте до 20%</span>
+          <p class="calculate-cost__description">Отправьте заявку на расчет
+            стоимости и получите скидку</p>
+            <img class="calculate-cost__info__image" src="images/arrow-calculate-cost.png" alt="" width="279" height="110">
+        </div>
+      </div>
+      <div class="col-12 col-md-7 col-lg-6 mt-4 mt-md-0">
+        <form action="" class="calculate-cost__form" id="calculate-cost_form">
+          <h3 class="calculate-cost__form__title">Заявка на расчет</h3>
+          <div class="wrapper__calculate-cost__form">
+            <input class="calculate-cost__form__input" type="text" name="name" value="" placeholder="Ваше имя">
+
+            <select id="products" class="calculate-cost__form__input calculate-cost__form__select _calculate-cost__form__select--custom-first" name="">
+              <option value="" disabled>Выберите продукцию</option>
+              <option value="concrete">Бетон (БСГ)</option>
+              <option value="sand_concrete">Пескобетон (раствор)</option>
+            </select>
+
+            <select id="concrete" class="calculate-cost__form__input calculate-cost__form__select _calculate-cost__form__select--custom-second" name="">
+              <option value="" disabled>Выберите марку</option>
+              <option value="concrete_М100">М100 (В7,5)</option>
+              <option value="concrete_М150">М150 (В12,5)</option>
+              <option value="concrete_М200">М200 (В15)</option>
+              <option value="concrete_М250">М250 (В20)</option>
+              <option value="concrete_М300">М300 (В22,5)</option>
+              <option value="concrete_М350">М350 (В25)</option>
+              <option value="concrete_М400">М400 (B30)</option>
+            </select>
+
+            <select id="sand_concrete" class="calculate-cost__form__input calculate-cost__form__select _calculate-cost__form__select--custom-five" name="" >
+              <option value="" disabled>Выберите марку</option>
+              <option value="sand_concrete_В7">(В7,5) М100</option>
+              <option value="sand_concrete_В12">(В12,5) М150</option>
+              <option value="sand_concrete_В15">(В15) М200</option>
+              <option value="sand_concrete_В20">(В20) М250</option>
+              <option value="sand_concrete_В22">(В22,5) М300</option>
+              <option value="sand_concrete_В25">(В25) М350</option>
+            </select>
+
+            <input type="hidden" name="products_select" value="">
+            <input type="hidden" name="brand_select" value="">
+
+            <input type="hidden" name="modal_form" value="modal_full">
+
+            <input class="calculate-cost__form__input" type="number" name="volume" value="" placeholder="Укажите объем">
+            <input class="calculate-cost__form__input" type="phone" name="phone" value="" placeholder="Контактный телефон">
+          </div>
+          <button class="button calculate-cost__form__button" type="submit" name="button">Отправить заявку</button>
+          <p class="calculate-cost__form__description">Нажимая кнопку "Отправить заявку",
+            вы даете согласие на обработку персональных данных</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

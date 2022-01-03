@@ -1,0 +1,147 @@
+.banner {
+  padding-top: 180px;
+  min-height: 1140px;
+  background-image: url('../images/background-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@supports(background-image:url('../images/background-header.webp')) {
+  .banner {
+    background-image: url("../images/background-header.webp");
+  }
+}
+
+.banner__description {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Play-Bold";
+  font-size: 86px;
+  line-height: 92px;
+}
+
+.banner__span {
+  font-family: "Play-Regular";
+  font-size: 26px;
+  line-height: 64px;
+}
+
+.banner__description-stock {
+  margin: 0;
+  padding: 0;
+
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.banner__description-stock--span {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  color: #ffffff;
+  background-color: #272727;
+}
+
+.wrapper__banner__button-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.banner__info {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.banner__button {
+  width: fit-content;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+@media (max-width: 575px) {
+  .banner {
+    padding-top: 230px;
+    min-height: 750px;
+  }
+
+  .banner__description {
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-bottom: 15px;
+  }
+
+  .banner__info {
+    display: block;
+    margin-top: 20px;
+    padding: 0 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .banner__span {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .banner__description-stock {
+    font-size: 28px;
+    line-height: 40px;
+
+    margin-top: 15px;
+  }
+
+  .banner__button {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .wrapper__banner__button-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner {
+    padding-top: 230px;
+    min-height: 750px;
+  }
+
+  .banner__description {
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-bottom: 15px;
+  }
+
+  .banner__span {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .banner__description-stock {
+    font-size: 28px;
+    line-height: 40px;
+
+    margin-top: 15px;
+  }
+
+  .banner__info {
+    padding: 0 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}

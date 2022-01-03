@@ -1,0 +1,279 @@
+.modal {
+  display: none;
+  position: fixed;
+  overflow-y: auto;
+  padding-bottom: 40px;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #272727;
+  z-index: 10;
+}
+
+.modal .calculate-cost__form {
+  width: 645px;
+  margin: 0 auto;
+}
+
+.modal .calculate-cost__form__input {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.modal .size__select {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.modal__button-close {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 20px;
+  display: block;
+  font-size: 0;
+  width: 72px;
+  height: 72px;
+  background-image: url('../images/icon/modal-close.png');
+  background-color: inherit;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.calculate-cost__form__description--top {
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.modal_price {
+  display: none;
+  padding-top: 10%;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(71,71,71,0.8);
+  z-index: 10;
+}
+
+.wrapper__modal_price__products__table {
+  margin: 0 auto;
+  width: 420px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.modal_price .products__table span {
+  color: #919191;
+}
+
+.modal_price__button-close {
+  position: absolute;
+  top: -42px;
+  right: -21px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 20px;
+  display: block;
+  font-size: 0;
+  width: 42px;
+  height: 42px;
+  background-image: url('../images/icon/modal-close--small.png');
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+.modal_price__button {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#privacy-policy .container {
+  height: 100%;
+}
+
+#privacy-policy .calculate-cost__form {
+  overflow-y: scroll;
+}
+
+@media (max-width: 575px) {
+  .modal {
+    padding-top: 10%;
+  }
+
+  .modal .calculate-cost__form {
+    width: 100%;
+  }
+
+  .modal .container {
+    position: relative;
+  }
+
+  .calculate-cost__form__description--top {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .modal__button-close {
+    position: absolute;
+    top: -42px;
+    right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+    display: block;
+    font-size: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url('../images/icon/modal-close--small.png');
+    background-color: inherit;
+    border: none;
+
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .modal .size--select__list {
+    height: 300%;
+    overflow-y: scroll;
+  }
+
+  .wrapper__modal_price__products__table {
+    width: 100%;
+  }
+
+  .modal .wrapper__calculate-cost__form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .modal {
+    padding-top: 10%;
+  }
+
+  .modal .container {
+    position: relative;
+  }
+
+  .modal .calculate-cost__form {
+    width: 450px;
+  }
+
+  .calculate-cost__form__description--top {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .modal__button-close {
+    position: absolute;
+    top: -42px;
+    right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+    display: block;
+    font-size: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url('../images/icon/modal-close--small.png');
+    background-color: inherit;
+    border: none;
+
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .modal .size--select__list {
+    height: 300%;
+    overflow-y: scroll;
+  }
+
+  .modal .wrapper__calculate-cost__form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .modal {
+    padding-top: 10%;
+  }
+
+  .modal .container {
+    position: relative;
+  }
+
+  .modal .calculate-cost__form {
+    width: 450px;
+  }
+
+  .modal__button-close {
+    position: absolute;
+    top: -42px;
+    right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+    display: block;
+    font-size: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url('../images/icon/modal-close--small.png');
+    background-color: inherit;
+    border: none;
+
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .modal .size--select__list {
+    height: 300%;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .modal .size--select__list {
+    height: 300%;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1349px) {
+
+}
