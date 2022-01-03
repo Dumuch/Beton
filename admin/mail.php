@@ -1,5 +1,5 @@
 <?php
-require_once '../phpmailer/Exception.php';
+require '../phpmailer/Exception.php';
 require '../phpmailer/PHPMailer.php';
 require '../phpmailer/SMTP.php';
 
